@@ -1,0 +1,12 @@
+drop DATABASE meshkah;
+CREATE DATABASE meshkah;
+
+use meshkah;
+
+CREATE TABLE products (
+	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+	name VARCHAR(30) NOT NULL,
+	numbers VARCHAR(11) NOT NULL,
+	color VARCHAR(50) NOT NULL,
+	size VARCHAR(50)
+	);
